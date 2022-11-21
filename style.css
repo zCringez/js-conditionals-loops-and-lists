@@ -1,0 +1,17 @@
+div:has(#output) {
+    position: relative;
+    background-color: lightgrey;
+    height: 50vh;
+    top: 20vh;
+    overflow: scroll;
+}
+
+.button-container {
+    padding: 20px;
+}
+
+#input {
+    margin: 10px 5%;
+    width: 90%;
+    font-size: 24pt;
+}
