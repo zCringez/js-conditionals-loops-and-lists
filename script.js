@@ -126,18 +126,22 @@ function checkForXAufgabe12() {
       function replaceUntilKAufgabe22() {
         let input = read();
         let result = "";
-        for (let i = 0; i < input.length; i++) {
+        let i;
+        for (i = 0; i < input.length; i++) {
           if (input[i] === "k") {
             break;
           }
           result += "$";
         }
-        console.log(result + input.substring(i));   
+        console.log(result + input.substring(i));
       }
+        
+      
       function replaceUntilUppercaseAufgabe23() {
         let input = read();
         let result = "";
-        for (let i = 0; i < input.length; i++) {
+        let i;
+        for (i = 0; i < input.length; i++) {
           if (input[i] === input[i].toUpperCase()) {
             break;
           }
