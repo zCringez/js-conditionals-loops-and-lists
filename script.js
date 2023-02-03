@@ -42,6 +42,15 @@ function checkForXAufgabe12() {
           console.log("Input is not between 0 and 12 characters long.");
         }
       }
+      function doubleInputAufgabe14() {
+        let input = read();
+        let result = "";
+        for (let i = 0; i < input.length; i++) {
+          result += input[i] + input[i];
+        }
+        console.log(result);
+      }
+      
       
 
 
