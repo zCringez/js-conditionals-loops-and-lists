@@ -173,7 +173,21 @@ function checkForXAufgabe12() {
           console.log(result);
         }
       }
+      function reverseStringTillMidAufgabe27(input) {
+        let result = "";
+        for (let i = 0; i < Math.floor(input.length / 2); i++) {
+          let first = input[i];
+          let last = input[input.length - 1 - i];
+          result += last + input.substring(i + 1, input.length - 1 - i) + first;
+        }
+        if (input.length % 2 !== 0) {
+          result += input[Math.floor(input.length / 2)];
+        }
+        return result;
+      }
       
+      
+
       
       
       
