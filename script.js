@@ -153,8 +153,18 @@ function checkForXAufgabe12() {
         let input = read();
         console.log(input[0] + input + input[0]);
       }
+      function addFirstThreeAufgabe25() {
+        let input = read();
+        if (input.length < 3) {
+          console.log("Input string must be at least 3 characters long");
+          return;
+        }
+        let firstThree = input.substring(0, 3);
+        console.log(firstThree + input + firstThree);
+      }
       
       
+
 
 
       
