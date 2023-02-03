@@ -149,6 +149,14 @@ function checkForXAufgabe12() {
         }
         console.log(result + input.substring(i));
       }
+      function repeatFirstCharacterAufgabe24() {
+        let input = read();
+        console.log(input[0] + input + input[0]);
+      }
+      
+      
+
+
       
 
 
