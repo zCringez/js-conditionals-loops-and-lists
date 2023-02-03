@@ -37,9 +37,9 @@ function checkForXAufgabe12() {
     function checkForLengthAufgabe13() {
         let input = read();
         if (input.length > 0 && input.length < 12) {
-          console.log("Input is between 1 and 11 characters long.");
+          console.log("Input is between 0 and 12 characters long.");
         } else {
-          console.log("Input is not between 1 and 11 characters long.");
+          console.log("Input is not between 0 and 12 characters long.");
         }
       }
       
