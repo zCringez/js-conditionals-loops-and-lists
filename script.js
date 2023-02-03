@@ -162,6 +162,19 @@ function checkForXAufgabe12() {
         let firstThree = input.substring(0, 3);
         console.log(firstThree + input + firstThree);
       }
+      function swapFirstAndLastAufgabe26() {
+        let input = read();
+        if (input.length < 2) {
+          console.log(input);
+        } else {
+          let first = input[0];
+          let last = input[input.length - 1];
+          let result = last + input.substring(1, input.length - 1) + first;
+          console.log(result);
+        }
+      }
+      
+      
       
       
 
