@@ -114,6 +114,34 @@ function checkForXAufgabe12() {
         console.log(result);
       }
       
+      function toLowercaseAufgabe21() {
+        let input = read();
+        let result = "";
+        for (let i = 0; i < input.length; i++) {
+          result += input[i].toLowerCase();
+        }
+        console.log(result);
+      }
+    
+      function replaceUntilKAufgabe22() {
+        let input = read();
+        let result = "";
+        for (let i = 0; i < input.length; i++) {
+          if (input[i] === "k") {
+            break;
+          }
+          result += "$";
+        }
+        console.log(result + input.substring(i));
+      }
+      
+
+      
+      
+
+
+
+
 
       
       
