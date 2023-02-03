@@ -185,6 +185,18 @@ function checkForXAufgabe12() {
         }
         return result;
       }
+
+      function removeMiddleCharacterAufgabe28() {
+        let input = read();
+        if (input.length > 10 || input.length % 2 !== 0) {
+          let middleIndex = Math.floor(input.length / 2);
+          let result = input.substring(0, middleIndex) + input.substring(middleIndex + 1);
+          console.log(result);
+        } else {
+          console.log(input);
+        }
+      }
+      
       
       
 
