@@ -132,9 +132,23 @@ function checkForXAufgabe12() {
           }
           result += "$";
         }
+        console.log(result + input.substring(i));   
+      }
+      function replaceUntilUppercaseAufgabe23() {
+        let input = read();
+        let result = "";
+        for (let i = 0; i < input.length; i++) {
+          if (input[i] === input[i].toUpperCase()) {
+            break;
+          }
+          result += input[i].toUpperCase();
+        }
         console.log(result + input.substring(i));
       }
       
+
+
+
 
       
       
