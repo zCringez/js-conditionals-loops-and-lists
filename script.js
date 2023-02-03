@@ -196,7 +196,17 @@ function checkForXAufgabe12() {
           console.log(input);
         }
       }
+      function removeMiddleUntilTwoEqualAufgabe29() {
+        let input = read();
+        while (input.length > 2 && input[Math.floor(input.length / 2) - 1] !== input[Math.floor(input.length / 2)]) {
+          input = input.substring(0, Math.floor(input.length / 2) - 1) + input.substring(Math.floor(input.length / 2) + 1);
+        }
+        console.log(input);
+      }
       
+
+      
+
       
       
 
